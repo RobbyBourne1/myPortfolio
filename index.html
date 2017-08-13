@@ -8,19 +8,44 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#intro">Home</a></li>
-          <li><a href="#aboutMe">About Me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contactMe">Contact Me</a></li>
+        <ul id="navBar">
+          <li class="navElements"><a href="#aboutMe">Home</a></li>
+          <li class="navElements"><a href="#portfolio">Portfolio</a></li>
+          <li class="navElements"><a href="#skills">Skills</a></li>
+          <li class="navElements"><a href="#contactMe">Contact Me</a></li>
         </ul>
       </nav>
     </header>
-    <section class="intro" id="intro">
-      <h1>Welcome To My Page</h1>
-    </section>
+    <div class="wrapper">
     <section class="aboutMe" id="aboutMe">
-
+      <h1>Welcome To My Page</h1>
+      <img class="headshot" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAIQAAAAJGIxZDNiMmQ1LTRkOWEtNDhlMi04MGNiLWJhMTZiNzZjNzc5NA.jpg" alt="Personal Picture">
+      <h2>About Me</h2>
+      <p>Thanks for taking the time to view my page today. I am cureently earning how to program at The Iron Yard in St. Pete. Below is a look into the projects and skills I have acquired in my time as a student. If you have any questions or feel free to reach out to me <a href="#contactMe">here</a></p>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="row-1">
+          <div id="img-1">
+            <img class="portfolioImg" src="http://via.placeholder.com/100x100" alt="Endless Possibilities">
+          </div>
+          <div id="img-2" >
+            <img class="portfolioImg" src="http://via.placeholder.com/100x100" alt="Sets">
+          </div>
+          <div id="img-3">
+            <img class="portfolioImg" src="http://via.placeholder.com/100x100" alt="Textures">
+          </div>
+         </div>
+          <div class="row-2">
+          <div id="img-4">
+            <img class="portfolioImg" src="http://via.placeholder.com/100x100" alt="Tea Time">
+          </div>
+          <div id="img-5">
+            <img class="portfolioImg" src="http://via.placeholder.com/100x100" alt="Jars and Containers">
+          </div>
+          <div id="img-6">
+            <img class="portfolioImg" src="http://via.placeholder.com/100x100" alt="Wasabi and Saki">
+          </div>
+        </div>
     </section>
     <section class="skills" id="skills">
 
@@ -28,6 +53,7 @@
     <section class=contactMe id="contactMe">
 
     </section>
+    </div>
     <footer></footer>
   </body>
 </html>
