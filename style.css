@@ -15,7 +15,7 @@ header {
   position: fixed;
   background-position: 0 150px;
   width: 100%;
-  top: 0;
+  top: -.2em;
 }
 
 #navBar {
