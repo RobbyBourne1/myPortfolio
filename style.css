@@ -5,7 +5,7 @@ body {
   width: 100%;
 }
 
-/*Nav Bar CSS*/
+/*Nav Bar CSS START*/
 
 #navBar {
   list-style: none;
@@ -32,7 +32,9 @@ a {
   color: #968772;
 }
 
-/*Home Section CSS*/
+/*Nav Bar CSS END*/
+
+/*Home Section CSS START*/
 
 .headshot {
   width: 6em;
@@ -46,6 +48,10 @@ a {
   flex-flow: column;
   align-items: center;
 }
+
+/*Home Section END*/
+
+/*Portfolio Section START*/
 
 .portfolio {
   display: flex;
@@ -79,3 +85,51 @@ a {
   height: 7em;
   margin: .5em;
 }
+
+/*Portfolio Section END*/
+
+/*Skills Section START*/
+
+.skillsList {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.skills {
+  display: flex;
+  flex-flow: row;
+}
+
+.feSkills,
+.beSkills {
+  list-style: none;
+  padding: 0;
+  margin: .25em 1em;
+}
+
+/*Skills Sections END*/
+
+/*Contact Me START*/
+
+.contactMe {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.contactList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  padding: .5em;
+}
+
+.contactList > li {
+  margin: 1.1em .5em;
+}
+
+/*Contact Me END*/
