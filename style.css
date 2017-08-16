@@ -6,15 +6,9 @@ body {
   color: #666;
 }
 
-.wrapper {
-  margin-top: 3em;
-}
-
 /*Nav Bar CSS START*/
 
 header {
-  position: fixed;
-  background-position: 0 150px;
   width: 100%;
   top: -.2em;
 }
@@ -67,7 +61,7 @@ a {
   align-items: center;
   background-color: lightblue;
   width: 100%;
-  padding: 1em;
+  padding: 1em 0; 
 }
 
 .column-1,
@@ -80,16 +74,22 @@ a {
 /*Portfolio Section START*/
 
 .portfolio {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  justify-content: center;
   width: 100%;
-  background-color: lightsalmon;
-  padding: 1em;
+  background-image: url(imgs/images.png);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1em 0; 
 }
 
-.row-1 {
+.portfolio > h3 {
+  text-align: center;
+  margin: 0;
+}
+
+.portfolioPrjs{
   display: flex;
   flex-flow: row wrap;
   margin: .25em;
@@ -97,16 +97,6 @@ a {
   width: 100%;
   justify-content: center;
   padding: 0;
-}
-
-.row-2 {
-  display: flex;
-  flex-flow: row wrap;
-  margin: .25em;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  padding: 0em;
 }
 
 .portfolioImg {
@@ -124,7 +114,8 @@ a {
   flex-flow: column;
   align-items: center;
   background-color: lightblue;
-  padding: 1em;
+  width: 100%;
+  padding: 1em 0; 
 }
 
 .skillsList > h3 {
@@ -156,6 +147,7 @@ a {
   justify-content: center;
   width: 100%;
   background-color: lightsalmon;
+  padding: 1em 0; 
 }
 
 .contactList {
@@ -186,6 +178,7 @@ a {
 
 footer {
   border-top: 1px solid black;
-  padding: 1em;
   text-align: center;
+  width: 100%;
+  padding: 1em 0; 
 }
