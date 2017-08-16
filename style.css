@@ -143,7 +143,7 @@ a {
 
 .contactMe {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   width: 100%;
   background-image: url(imgs/images.png);
@@ -165,16 +165,24 @@ a {
 }
 
 .contactList > li {
-  margin: 1.2em .5em;
+  margin: 1em .5em;
 }
 
 .contactMe > p {
+  justify-content: center;
   padding: 0;
   margin-top: 0;
+  text-align: center;
 }
 
 .contactMe a:hover {
   color: #666;
+}
+
+@media screen and (max-width: 500px) {
+  .contactMe {
+    font-size: .75em
+  }
 }
 
 /*Contact Me END*/
