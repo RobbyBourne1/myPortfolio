@@ -190,9 +190,30 @@ a {
 /*Footer*/
 
 footer {
+  
   border-top: 1px solid black;
   text-align: center;
   width: 100%;
   padding: 1em 0; 
   background-color: lightblue;
+}
+
+footer > ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+}
+
+footer > ul > li {
+  display: flex;
+  align-items: center;
+  margin: 0 .5em;
+}
+
+footer > ul > img {
+  justify-content: center;
+  width: 2em;
+  height: 2em;
 }
