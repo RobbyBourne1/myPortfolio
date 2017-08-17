@@ -124,8 +124,13 @@ a {
 
 .skills {
   display: flex;
-  flex-flow: row;
+  flex-flow: row wrap;
   list-style: none;
+  justify-content: center;
+}
+
+.skills > li {
+  margin: 1em;
 }
 
 .devicon-csharp-plain,
@@ -134,9 +139,10 @@ a {
 .devicon-express-original-wordmark,
 .devicon-css3-plain-wordmark,
 .devicon-javascript-plain,
-.devicon-html5-plain-wordmark {
+.devicon-html5-plain-wordmark,
+.devicon-visualstudio-plain,
+.devicon-atom-original {
   font-size: 5em;
-  margin: .5em;
 }
 
 /*Skills Sections END*/
