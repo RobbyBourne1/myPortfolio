@@ -125,16 +125,18 @@ a {
 .skills {
   display: flex;
   flex-flow: row;
+  list-style: none;
 }
 
-.feSkills,
-.beSkills {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  list-style: none;
-  padding: 0;
-  margin: .25em 1em;
+.devicon-csharp-plain,
+.devicon-postgresql-plain-wordmark,
+.devicon-nodejs-plain-wordmark, 
+.devicon-express-original-wordmark,
+.devicon-css3-plain-wordmark,
+.devicon-javascript-plain,
+.devicon-html5-plain-wordmark {
+  font-size: 5em;
+  margin: .5em;
 }
 
 /*Skills Sections END*/
