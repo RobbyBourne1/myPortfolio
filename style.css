@@ -194,7 +194,11 @@ a {
   color: #666;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
+  .navElements {
+    font-size: .75em;
+  }
+  
   .contactMe {
     font-size: .75em
   }
