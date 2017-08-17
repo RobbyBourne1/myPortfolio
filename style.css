@@ -23,6 +23,10 @@ header {
   padding: 0;
   width: 100%;
   background-color: #666;
+  position: fixed;
+  top: 0;
+  box-shadow: 0 0 25px 0 #666;
+  scroll
 }
 
 a {
@@ -76,13 +80,13 @@ a {
 
 .portfolio {
   width: 100%;
-  background-image: url(imgs/images.png);
+  background-image: url(imgs/images.jpg);
   height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 1em 0; 
+  padding: 4em 0; 
 }
 
 .portfolio > h2 {
