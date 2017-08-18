@@ -39,6 +39,10 @@ a {
   color: palegoldenrod;
 }
 
+.navElements > a > i {
+  margin: 0 .5em;
+}
+
 /*Nav Bar CSS END*/
 
 /*Home Section CSS START*/
@@ -224,12 +228,16 @@ footer > ul > img {
   height: 2em;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
   .navElements {
     font-size: .75em;
   }
   
   .contactMe {
     font-size: .75em
+  }
+
+  footer {
+    font-size: .5em
   }
 }
