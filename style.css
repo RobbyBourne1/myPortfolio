@@ -58,7 +58,7 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: lightblue;
+  background-color: rgb(64, 190, 183);
   padding: 3em 0; 
 }
 
@@ -114,7 +114,7 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: lightblue;
+  background-color: rgb(64, 190, 183);
   width: 100%;
   padding: 3em 0; 
 }
@@ -209,7 +209,7 @@ footer {
   border-top: 1px solid black;
   text-align: center;
   padding: 1em 0; 
-  background-color: lightblue;
+  background-color: rgb(64, 190, 183);
 }
 
 footer > ul {
