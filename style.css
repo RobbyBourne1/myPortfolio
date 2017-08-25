@@ -91,8 +91,8 @@ a {
 
 .portfolioPrjs{
   display: flex;
-  flex-flow: row wrap;
-  margin: .25em;
+  flex-flow: row;
+  margin: 1em;
   height: 100%;
   justify-content: center;
   padding: 0;
@@ -103,9 +103,26 @@ a {
 }
 
 .portfolioImg {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 10em;
-  height: 10em;
-  margin: .5em;
+  height: 10em; 
+  border-radius: 10%;
+} 
+
+.PrtImgs > span {
+  display: flex;
+  justify-content: center;
+} 
+
+#img-1, #img-2, #img-3 {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 20em;
+  height: 18em;
+  margin: 1em;
 }
 
 /*Portfolio Section END*/
