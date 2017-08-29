@@ -262,7 +262,7 @@ footer > ul > img {
   height: 2em;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .navElements {
     font-size: .7em;
   }
