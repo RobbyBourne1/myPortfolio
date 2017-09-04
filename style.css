@@ -110,11 +110,15 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
-  width: 10em;
-  height: 10em; 
-  border-radius: 10%;
+  width: 16.5em;
+  height: 10em;
   margin: .5em;
+  border: 3.5px solid grey;
 } 
+
+.ImgBody a:hover {
+  color: #656565;
+}
 
 .PrtImgs {
   display: flex;
