@@ -174,15 +174,7 @@ a {
   color: whitesmoke;
 }
 
-.devicon-csharp-plain,
-.devicon-postgresql-plain-wordmark,
-.devicon-nodejs-plain-wordmark, 
-.devicon-express-original-wordmark,
-.devicon-css3-plain-wordmark,
-.devicon-javascript-plain,
-.devicon-html5-plain-wordmark,
-.devicon-visualstudio-plain,
-.devicon-atom-original {
+.iconDev {
   font-size: 4em;
 }
 
