@@ -271,7 +271,10 @@ footer > ul > img {
   position: fixed;
   background-color: #7E7E7E;
   box-shadow: 0 0 25px 0 #666;
+}
 
+.wrapperResume {
+  margin: 0 .5em
 }
 
 #resumeSkills > h1 {
@@ -301,6 +304,14 @@ h4 {
 
 .resumeEnv {
   margin-left: 1.5em;
+}
+
+#resumeJobs {
+  margin: .5em;
+}
+
+#resumeEducation {
+  margin: .5em;
 }
 
 /* Resume Page End */
