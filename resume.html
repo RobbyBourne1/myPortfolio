@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     <title>Robby's Portfolio Website</title>
   </head>
-  <body>
+  <body id="Resume">
     <header>
       <nav>
         <ul id="navBarResume">
@@ -21,6 +21,7 @@
         </ul>
       </nav>
     </header>
+    <div class="wrapper">
     <section id="resumeSkills">
         <h1>My Resume</h1>
         <h3>Skills</h3>
@@ -37,7 +38,7 @@
     </section>
     <section id="resumeJobs">
         <h3>Employment Experience</h3>
-        <div id="jobDetails">
+        <div class="jobs">
             <div class="jobTitle">
             <h4>The Iron Yard</h4>
             <h4>6/2017-9/2017</h4>
@@ -60,9 +61,34 @@
                 <li class="jobDetails">Built a website to replicate StackOverflow using BootStrap, ASP.Net/ C# with Entity Framework, .NET API’s and a Postgresql database. 
                     </li>
             </ul>
-            <p><a class="fontStyle">Environment</a>HTML, CSS (FlexBox & BootStrap), JavaScript, SQL(postgresql), JSON and .Net/ C# with Entity Framework.
+            <p class="resumeEnv"><a class="fontStyle">Environment</a>HTML, CSS (FlexBox & BootStrap), JavaScript, SQL(postgresql), JSON and .Net/ C# with Entity Framework.
             </p>
         </div>
+        <div class="jobs">
+                <div class="jobTitle">
+                <h4>Consultis</h4>
+                <h4>11/2015-6/2017</h4>
+                </div>
+                <h4>Technical Recruiter</h4>
+                <ul class="resumeJobs">
+                    <li class="jobDetails">Managed a full recruitment life-cycle from sourcing to offer negotiation</li>
+                    <li class="jobDetails">Sourced and interviewed passive candidates through cold calling, advanced searching and professional networking.</li>
+                    <li class="jobDetails">Selected as employee of the month 6 times based on overall performance and teamwork.</li>
+                    <li class="jobDetails">Continually interview candidates to identify proper matches for projects and direct hire opportunities.</li>
+                    <li class="jobDetails">Negotiate wages and conditions of employment to meet proper account demands.</li>
+                </ul>
+            </div>
     </section>
+    <section id="Education">
+        <h3>Education</h3>
+        <div class="jobTitle">
+        <h4>University of South Florida, Tampa, Florida</h4>
+        <h4>May 2015</h4>
+        </div>
+        <ul>
+            <li>Bachelor of Science in Business Management</li>
+        </ul>
+    </section>
+    </div>
   </body>
 </html>

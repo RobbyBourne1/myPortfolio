@@ -274,6 +274,11 @@ footer > ul > img {
 
 }
 
+#resumeSkills > h1 {
+  margin: 0;
+  padding-top: 3em;
+}
+
 .fontStyle {
   font-style: italic;
   font-weight: 900;
@@ -292,6 +297,10 @@ footer > ul > img {
 
 h4 {
   margin: 0 .5em 0 .5em;
+}
+
+.resumeEnv {
+  margin-left: 1.5em;
 }
 
 /* Resume Page End */
