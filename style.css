@@ -318,7 +318,25 @@ h4 {
 
 /* Media Query */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 499px){
+  .navElements {
+    font-size: 8px;
+  }
+
+  body{
+    font-size: .8em;
+  }
+
+  .contactMe {
+    font-size: .75em
+  }
+
+  footer {
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px) {
   body{
     font-size: .8em;
   }
@@ -332,7 +350,7 @@ h4 {
   }
 
   footer {
-    font-size: .5em
+    font-size: .5em;
   }
 }
 
