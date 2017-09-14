@@ -258,6 +258,37 @@ footer > ul > img {
   height: 2em;
 }
 
+/* Resume Page Start */
+
+#navBarResume {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid black;
+  padding: 0;
+  width: 100%;
+  background-color: #7E7E7E;
+  box-shadow: 0 0 25px 0 #666;
+
+}
+
+.fontStyle {
+  font-style: italic;
+  font-weight: 900;
+  color: #656565;
+  margin-right: .2em;
+}
+
+.resumeSkills {
+  margin: .25em
+}
+
+
+/* Resume Page End */
+
+/* Media Query */
+
 @media screen and (max-width: 600px) {
   body{
     font-size: .8em;
@@ -275,3 +306,5 @@ footer > ul > img {
     font-size: .5em
   }
 }
+
+/* End Media Query */
