@@ -258,7 +258,85 @@ footer > ul > img {
   height: 2em;
 }
 
-@media screen and (max-width: 600px) {
+/* Resume Page Start */
+
+#navBarResume {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  border: 1px solid black;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  background-color: #7E7E7E;
+  box-shadow: 0 0 25px 0 #666;
+}
+
+.wrapperResume {
+  margin: 0 .5em
+}
+
+#resumeSkills > h1 {
+  margin: 0;
+  padding-top: 3em;
+}
+
+.fontStyle {
+  font-style: italic;
+  font-weight: 900;
+  color: #656565;
+  margin-right: .2em;
+}
+
+.resumeSkills {
+  margin: .25em
+}
+
+.jobTitle {
+  display: flex;
+  justify-content: space-between
+}
+
+h4 {
+  margin: 0 .5em 0 .5em;
+}
+
+.resumeEnv {
+  margin-left: 1.5em;
+}
+
+#resumeJobs {
+  margin: .5em;
+}
+
+#resumeEducation {
+  margin: .5em;
+}
+
+/* Resume Page End */
+
+/* Media Query */
+
+@media screen and (max-width: 499px){
+  .navElements {
+    font-size: 8px;
+  }
+
+  body{
+    font-size: .8em;
+  }
+
+  .contactMe {
+    font-size: .75em
+  }
+
+  footer {
+    font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 700px) and (min-width: 500px) {
   body{
     font-size: .8em;
   }
@@ -272,6 +350,8 @@ footer > ul > img {
   }
 
   footer {
-    font-size: .5em
+    font-size: .5em;
   }
 }
+
+/* End Media Query */
