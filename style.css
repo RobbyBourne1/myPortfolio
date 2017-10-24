@@ -60,7 +60,7 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: rgb(87, 211, 204);
+  background-color: #57d3cc;
   padding: 3em 0; 
 }
 
@@ -358,20 +358,18 @@ h4 {
 /* Experiment */
 
 .view {
-  margin: 10px;
-  float: left;
-  border: 10px solid #fff;
+  margin: 1em;
+  border: .25em solid #fff;
   overflow: hidden;
   position: relative;
   text-align: center;
   box-shadow: 1px 1px 2px #e6e6e6;
   cursor: default;
-  background: #fff url(../images/bgimg.jpg) no-repeat center center
 }
 
 .view .mask,
 .view .content {
-  width: 300px;
+  width: 19em;
   height: 200px;
   position: absolute;
   overflow: hidden;
@@ -386,35 +384,20 @@ h4 {
 
 .view h2 {
   text-transform: uppercase;
-  color: #fff;
-  text-align: center;
   position: relative;
-  font-size: 17px;
-  font-family: Raleway, serif;
-  padding: 10px;
-  /*background: rgba(0, 0, 0, 0.8);*/
-  margin: 20px 0 0 0
+  font-size: 1em;
+  padding: .25em;
 }
 
 .view p {
-  font-family: Merriweather, serif;
-  font-style: italic;
-  font-size: 14px;
-  position: relative;
-  color: #fff;
-  padding: 0px 20px 0px;
-  text-align: center
+  font-size: .65em;
+  padding: 0 1em 0;
 }
 
 .view a.info {
-  display: inline-block;
   text-decoration: none;
-  padding: 7px 14px;
-  background: #000;
-  color: #fff;
-  font-family: Raleway, serif;
-  text-transform: uppercase;
-  box-shadow: 0 0 1px #000
+  padding: .5em 1em;
+  background: #666;
 }
 
 .view a.info:hover {
@@ -433,7 +416,8 @@ h4 {
 
 .view-first .mask {
   opacity: 0;
-  background-color: rgba(58, 1, 132, 0.44);
+  background-color: #57d3cc;
+  color: #656565;  
   transition: all 0.4s ease-in-out;
 }
 
