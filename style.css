@@ -370,7 +370,7 @@ h4 {
 .view .mask,
 .view .content {
   width: 19em;
-  height: 200px;
+  height: 15em;
   position: absolute;
   overflow: hidden;
   top: 0;
@@ -378,8 +378,7 @@ h4 {
 }
 
 .view img {
-  display: block;
-  position: relative
+  display: flex;
 }
 
 .view h2 {
@@ -396,7 +395,8 @@ h4 {
 
 .view a.info {
   text-decoration: none;
-  padding: .5em 1em;
+  margin: 1em 1em;
+  padding: .25em .25em;
   background: #666;
 }
 
@@ -410,21 +410,22 @@ h4 {
 .view-first img {
   /*1*/
   transition: all 0.2s linear;
-  width: 300px;
-  height: 200px;
+  width: 19em;
+  height: 15em;
 }
 
 .view-first .mask {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   opacity: 0;
   background-color: #57d3cc;
-  color: #656565;  
   transition: all 0.4s ease-in-out;
 }
 
 .view-first h2 {
   transform: translateY(-100px);
   opacity: 0;
-  font-family: Raleway, serif;
   transition: all 0.2s ease-in-out;
 }
 
