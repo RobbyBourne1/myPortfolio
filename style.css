@@ -208,7 +208,7 @@ a {
   display: flex;
   flex-flow: column;
   align-items: center;
-  background-color: rgb(87, 211, 204);
+  background-color: #57d3cc;
   width: 100%;
   padding: 3em 0; 
 }
@@ -227,16 +227,35 @@ a {
 }
 
 .skills > li {
+  display: flex;
+  align-items: center; 
   margin: 1em;
-}
-
-.skills i:hover {
-  color: whitesmoke;
+  /* width: 5em; */
 }
 
 .iconDev {
   font-size: 4em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.iconDesc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: .5em;
+  border: thin solid whitesmoke;
+  background-color: whitesmoke;
+  border-radius: 15%;
+  text-align: center;
+  color: #57d3cc;
+  height: 1.5em;
+  margin-top: .25em;
+  padding: .2em;
+}
+
+
 
 /*Skills Sections END*/
 
